@@ -1,0 +1,11 @@
+d={"name":"eva","age":22}
+print(d.keys())
+print(d.values())
+print(d.items())
+print(d.get("name"))
+d.update({"age":20})
+print(d)
+d.pop("age")
+print(d)
+d.clear()
+print(d)

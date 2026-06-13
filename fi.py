@@ -1,0 +1,6 @@
+file=open("demo.txt",'w')
+file.write("\nhello")
+file=open("demo.txt",'a')
+file.write("\nhiiiiiiiiii")
+file.write("\npyyyyyyyy")
+file.close()
